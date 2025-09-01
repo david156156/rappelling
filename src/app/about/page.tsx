@@ -253,7 +253,7 @@ export default function About() {
           </h2>
           <div className="relative">
             <div className="text-8xl text-[#baf2e5] absolute -top-4 -right-4">
-              "
+              &quot;
             </div>
             <blockquote className="text-xl text-stone-700 font-medium leading-relaxed relative z-10">
               בטיחות היא תמיד במקום הראשון. רק כשאנחנו מרגישים בטוחים לחלוטין,
@@ -261,7 +261,7 @@ export default function About() {
               הזדמנות ליצור זיכרונות בלתי נשכחים תוך שמירה על בטיחות מירבית.
             </blockquote>
             <div className="text-8xl text-[#baf2e5] absolute -bottom-8 -left-4">
-              "
+              &quot;
             </div>
           </div>
           <div className="mt-8 flex items-center justify-center gap-3">
