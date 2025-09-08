@@ -26,6 +26,12 @@ export default function About() {
             טיולים
           </Link>
           <Link
+            href="/course"
+            className="text-[#059669] hover:underline underline-offset-8 transition"
+          >
+            קורס גולש עצמאי
+          </Link>
+          <Link
             href="/contact"
             className="text-[#059669] hover:underline underline-offset-8 transition"
           >
@@ -41,7 +47,7 @@ export default function About() {
             <div className="relative">
               <Image
                 src="/images/aviel.jpg"
-                alt="המדריך"
+                alt="אביאל שמש"
                 width={600}
                 height={400}
                 className="w-full h-96 object-cover rounded-2xl shadow-2xl"
@@ -67,22 +73,39 @@ export default function About() {
                     אביאל שמש
                   </h1>
                   <p className="text-[#059669] font-medium">
-                    מדריך סנפלינג מוסמך
+                    מדריך סנפלינג ואיש חבלים
                   </p>
                 </div>
               </div>
               <p className="text-lg text-stone-600 leading-relaxed mb-8">
-                שלום! אני יוסי, מדריך סנפלינג עם יותר מעשור של ניסיון בתחום.
-                התחלתי את הדרך שלי כמטפס הרים ובמהלך השנים התמחיתי בסנפלינג
-                ובהדרכה בטוחה ומקצועית.
+                נעים להכיר, אני אביאל שמש – אבא לחיים, ילד מתוק בן 3, מדריך
+                סנפלינג ואיש חבלים.
+                <br />
+                החבל מלווה אותי כבר מעל ל־15 שנה – במצוקים, בקניונים ובמערות –
+                שם למדתי שאפשר להפוך כל ירידה לעלייה מנטלית ולהתגברות על הפחדים
+                שלנו.
+                <br />
+                עם השנים הפכתי את האהבה שלי לסנפלינג לעבודה: להוביל אנשים אל
+                המקומות הכי יפים בארץ, ולאפשר להם לגעת באתגר, באדרנלין ובטבע –
+                בצורה בטוחה, מקצועית ומהנה.
+                <br />
+                מעבר לעולם החבלים, אני גם מדריך אומנויות לחימה ומדריך בחינוך
+                מיוחד. הניסיון הזה נתן לי כלים להבין אנשים לעומק, ללוות אותם
+                בתהליכים אישיים, וליצור אווירה בטוחה ומכילה גם כשפוגשים פחדים
+                ואתגרים.
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="bg-[#e6f6f2] rounded-xl p-4 text-[#059669] font-semibold text-lg shadow">
+                ✨ החזון שלי: להפוך כל ירידה בחבל לחוויה של צמיחה – כזו שתישאר
+                בלב הרבה אחרי שהמסלול מסתיים.
+              </div>
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                {/* אפשר להשאיר את הסטטיסטיקות או לעדכן בהתאם לצורך */}
                 <div className="text-center p-4 bg-white rounded-xl shadow-sm">
-                  <div className="text-2xl font-bold text-[#059669]">10+</div>
+                  <div className="text-2xl font-bold text-[#059669]">15+</div>
                   <div className="text-sm text-stone-600">שנות ניסיון</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-xl shadow-sm">
-                  <div className="text-2xl font-bold text-[#059669]">500+</div>
+                  <div className="text-2xl font-bold text-[#059669]">מאות</div>
                   <div className="text-sm text-stone-600">טיולים הושלמו</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-xl shadow-sm">
@@ -256,9 +279,9 @@ export default function About() {
               &quot;
             </div>
             <blockquote className="text-xl text-stone-700 font-medium leading-relaxed relative z-10">
-              בטיחות היא תמיד במקום הראשון. רק כשאנחנו מרגישים בטוחים לחלוטין,
-              אנחנו יכולים להנות מהיופי והרגש שהטבע מציע לנו. כל טיול הוא
-              הזדמנות ליצור זיכרונות בלתי נשכחים תוך שמירה על בטיחות מירבית.
+              החבל הוא לא רק כלי – הוא מפתח לצמיחה, להתמודדות עם פחדים ולגילוי
+              עצמי. כל ירידה היא הזדמנות לגלות עוצמות חדשות, וכל מסלול הוא מסע
+              אישי בטבע ובנפש.
             </blockquote>
             <div className="text-8xl text-[#baf2e5] absolute -bottom-8 -left-4">
               &quot;
@@ -278,8 +301,10 @@ export default function About() {
               </svg>
             </div>
             <div className="text-right">
-              <div className="font-bold text-stone-800">יוסי לוי</div>
-              <div className="text-sm text-stone-600">מדריך סנפלינג מוסמך</div>
+              <div className="font-bold text-stone-800">אביאל שמש</div>
+              <div className="text-sm text-stone-600">
+                מדריך סנפלינג ואיש חבלים
+              </div>
             </div>
           </div>
         </div>
@@ -291,36 +316,33 @@ export default function About() {
           <h2 className="text-3xl font-bold text-stone-800 text-center mb-12">
             הסיפור שלי
           </h2>
-          <div className="prose prose-lg max-w-none text-stone-700 leading-relaxed">
+          <div className="prose prose-lg max-w-none text-stone-700 leading-relaxed text-right">
             <p className="mb-6">
-              הכל התחיל בטיול עם חברים בצפון הארץ. ראיתי לראשונה אנשים יורדים
-              במדרונות תלולים בעזרת חבלים, ומיד הבנתי שזה מה שאני רוצה לעשות.
-              התחושה של חופש, השילוב של טכניקה ואומץ, והקשר העמוק עם הטבע - הכל
-              פשוט &quot;קלק&quot; לי.
+              החבל מלווה אותי כבר מעל ל־15 שנה – במצוקים, בקניונים ובמערות – שם
+              למדתי שאפשר להפוך כל ירידה לעלייה מנטלית ולהתגברות על הפחדים שלנו.
             </p>
             <p className="mb-6">
-              אחרי כמה חודשים של לימוד עצמאי וחבילות הכשרה, קיבלתי את ההסמכה
-              הראשונה שלי. אבל הבנתי מהר מאוד שהטכניקה זה רק חלק מהסיפור. החלק
-              החשוב באמת הוא הבטיחות והיכולת להעביר את הידע הזה לאחרים בצורה
-              בטוחה ומהנה.
+              עם השנים הפכתי את האהבה שלי לסנפלינג לעבודה: להוביל אנשים אל
+              המקומות הכי יפים בארץ, ולאפשר להם לגעת באתגר, באדרנלין ובטבע –
+              בצורה בטוחה, מקצועית ומהנה.
             </p>
             <p className="mb-6">
-              במהלך השנים הדרכתי מאות אנשים - מתחילים מוחלטים ועד מטפסים מנוסים
-              שרצו להתנסות בסנפלינג. כל אחד מביא את הסיפור שלו, את הפחדים שלו
-              ואת החלומות שלו. תפקידי הוא ליצור סביבה בטוחה שבה כל אחד יכול
-              לגדול ולהתפתח בקצב שלו.
+              מעבר לעולם החבלים, אני גם מדריך אומנויות לחימה ומדריך בחינוך
+              מיוחד. הניסיון הזה נתן לי כלים להבין אנשים לעומק, ללוות אותם
+              בתהליכים אישיים, וליצור אווירה בטוחה ומכילה גם כשפוגשים פחדים
+              ואתגרים.
             </p>
-            <p>
-              היום, אחרי עשרות אלפי ירידות בחבל ומאות טיולים מוצלחים, אני עדיין
-              מתרגש כמו בפעם הראשונה כשאני רואה את הביטחון והשמחה בעיניים של
-              מישהו שמתגבר על עצמו ומגשים משהו שחשב שהוא בלתי אפשרי עבורו.
-            </p>
+            <div className="bg-[#e6f6f2] rounded-xl p-6 mt-8 text-[#059669] font-semibold text-xl shadow">
+              ✨ החזון שלי: להפוך כל ירידה בחבל לחוויה של צמיחה – כזו שתישאר בלב
+              הרבה אחרי שהמסלול מסתיים.
+            </div>
           </div>
         </div>
       </section>
 
       <footer className="text-center py-6 text-[#059669] bg-white border-t font-medium mt-8 shadow-inner">
-        © {new Date().getFullYear()} יוסי מדריך סנפלינג | כל הזכויות שמורות
+        © {new Date().getFullYear()} אביאל שמש | מדריך סנפלינג | כל הזכויות
+        שמורות
       </footer>
     </div>
   );
