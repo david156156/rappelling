@@ -26,6 +26,12 @@ export default function Home() {
             טיולים
           </Link>
           <Link
+            href="/course"
+            className="text-[#059669] hover:underline underline-offset-8 transition"
+          >
+            קורס גולש עצמאי
+          </Link>
+          <Link
             href="/contact"
             className="text-[#059669] hover:underline underline-offset-8 transition"
           >
